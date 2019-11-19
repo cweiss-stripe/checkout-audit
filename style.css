@@ -1,0 +1,39 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+button {
+  background-color: #6772e5;
+  color: #fff;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.info-box {
+  border: 1px dotted grey;
+  padding: 0 12px;
+  margin-bottom: 12px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container > button {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <script src="https://js.stripe.com/v3"></script>
+    <div class="container">
+      <h1>
+        Stripe Checkout Demo
+      </h1>
+
+      <div class="info-box">
+        <p>
+          The following demos will render the Checkout UI in various differnt
+          configurations. <br />
+          To encounter all possible UI variations, you need to test each
+          configuration with a narrow (e.g. 375px) and wide (eg. 1024px or
+          larger) viewport.
+        </p>
+      </div>
+
+      <div class="button-container">
+        <button id="checkout-button-one-sku" role="link">
+          Buy one item
+        </button>
+
+        <button id="checkout-button-two-skus" role="link">
+          Buy two items
+        </button>
+
+        <button id="checkout-button-one-sku-billing-address" role="link">
+          Buy one item with billing address
+        </button>
+
+        <button id="checkout-button-one-plan" role="link">
+          Subscribe to one plan
+        </button>
+
+        <button id="checkout-button-one-plan-trial" role="link">
+          Subscribe to one plan with trial
+        </button>
+
+        <button id="checkout-button-two-plans" role="link">
+          Subscribe to two plans
+        </button>
+
+        <button id="checkout-button-ideal" role="link">
+          Buy one item with ideal
+        </button>
+
+        <button id="checkout-button-card-ideal" role="link">
+          Buy one item with card + ideal
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
